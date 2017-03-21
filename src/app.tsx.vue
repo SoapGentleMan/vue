@@ -1,0 +1,1 @@
+<script lang="tsx" src="./app.tsx"></script>
