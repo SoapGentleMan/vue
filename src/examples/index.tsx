@@ -1,14 +1,8 @@
 import Vue from 'vue'
 import Component from 'vue-class-component'
 
-interface CustomVue {
-  $style: {
-    [key: string]: string
-  }
-}
-
 @Component({})
-export default class App extends Vue<CustomVue> {
+export default class App extends Vue {
   msg: number = 1;
 
   add() {
